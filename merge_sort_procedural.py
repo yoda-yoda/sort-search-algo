@@ -1,8 +1,9 @@
 #Author: Denis Karanja, P15/55431/2012
 #Institution: The University of Nairobi, Kenya,
-#Department: School of Computing and nodeInformatics,
+#Department: School of Computing and Informatics,
 #Email: dee.caranja@gmail.com,
 #Task: Merge sort- divided into 3 parts
+#License type: MIT
 
 def divideList(fullList):
 	length = len(fullList)

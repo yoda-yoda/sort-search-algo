@@ -1,8 +1,10 @@
 #Author: Denis Karanja, P15/55431/2012
 #Institution: The University of Nairobi, Kenya,
-#Department: School of Computing and nodeInformatics, Chiromo campus
+#Department: School of Computing and Informatics, Chiromo campus
 #Email: dee.caranja@gmail.com,
 #Task: Merge sort- divides a list into 3 parts
+#License type: MIT
+
 import time
 startTime = time.clock()
 class MergeSort:
