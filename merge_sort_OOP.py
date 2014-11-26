@@ -20,20 +20,22 @@ class MergeSort:
 			#divide elemnts
 			midOne = length / 3
 			midTwo = ((length - midOne) * -1) / 2
-				
+
+			if midOne is not length:	
 				#divide list into three parts
-			listOne = fullList[0:midOne]
-			listTwo = fullList[midOne:midTwo]
-			listThree = fullList[midTwo:]
-			
-			#conquer lists
-			sortedListOne = MergeSort().divideList(listOne)
-			sortedListTwo = MergeSort().divideList(listTwo)
-			sortedListThree = MergeSort().divideList(listThree)
+				listOne = fullList[0:midOne]
+				listTwo = fullList[midOne:midTwo]
+				listThree = fullList[midTwo:]
+				
+				#conquer lists
+				sortedListOne = MergeSort().divideList(listOne)
+				sortedListTwo = MergeSort().divideList(listTwo)
+				sortedListThree = MergeSort().divideList(listThree)
 
-			return MergeSort().mergeLists(sortedListOne, sortedListTwo, sortedListThree)
+				return MergeSort().mergeLists(sortedListOne, sortedListTwo, sortedListThree)
 
-			
+			else:
+				return "\nThe list has to be divided :)"
 	def mergeTwoLists(self, listOne, listTwo):
 		i = j = 0
 		output = []
