@@ -69,7 +69,7 @@ def mergeLists(listOne, listTwo, listThree):
 	return outputFinal
 
 
-sortList = [4,3,-1,5,9,10,-4,2,-5,15, 60, -90, 55, 40]
+sortList = [4,3,-1,5,9,10,-4,2,-5,15, 60, -90, 55, 40, 109, 101, 100, -40,-34, -3, 33, 22, 14, 12]
 
 print divideList(sortList)
 
