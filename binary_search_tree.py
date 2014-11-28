@@ -2,7 +2,8 @@
 #Institution: The University of Nairobi, Kenya,
 #Department: School of Computing and nodeInformatics,
 #Email: dee.caranja@gmail.com,
-#Task: Binary search tree inorder, preorder and postorder traversal
+#Task: Binary search tree inorder, preorder and postorder traversal in Python
+#License type: MIT :)
 
 class Node:
 	#constructor--a little house keeping :)

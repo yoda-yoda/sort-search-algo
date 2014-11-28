@@ -2,8 +2,8 @@
 #Institution: The University of Nairobi, Kenya,
 #Department: School of Computing and Informatics, Chiromo campus
 #Email: dee.caranja@gmail.com,
-#Task: Merge sort- divides a list into 3 parts
-#License type: MIT
+#Task: Merge sort- divides a list into 3 parts in Python
+#License type: MIT :)
 
 import time
 startTime = time.clock()
